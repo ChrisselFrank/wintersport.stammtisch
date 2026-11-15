@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Wintersport-Stammtisch</title>
-<meta name="description" content="Ab Montag geht's los! Der Wintersport-Stammtisch startet. Austausch, Tourenplanung und gemütliche Runden für alle, die den Winter lieben.">
+<meta name="description" content="Ab Montag geht's los! Der Wintersport-Stammtisch startet. Austausch und Tipps rund um sieben Wintersportarten, online auf Instagram.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Kalam:wght@700&family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
@@ -91,10 +91,11 @@
   .center{text-align:center}.center .lead{margin-inline:auto}
 
   .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:22px;margin-top:40px}
+  .cards:has(> .card:only-child){grid-template-columns:minmax(0,440px);justify-content:center}
   .card{background:#fff;border-radius:var(--radius);padding:30px 26px;box-shadow:0 10px 30px rgba(20,74,143,.08);position:relative;overflow:hidden;transition:transform .25s ease}
   .card:hover{transform:translateY(-4px)}
   .card::before{content:"";position:absolute;left:0;right:0;top:0;height:6px;background:linear-gradient(90deg,var(--petrol),var(--sky-light))}
-  .card .ico{width:54px;height:54px;border-radius:16px;display:grid;place-items:center;background:var(--ice);margin-bottom:16px}
+  .card .ico{width:54px;height:54px;border-radius:16px;display:grid;place-items:center;background:var(--ice);margin:0 auto 16px}
   .card h3{font-size:1.2rem;color:var(--petrol);margin-bottom:6px}
   .card p{color:var(--muted)}
 
@@ -218,23 +219,13 @@
       <div class="reveal">
         <div class="kicker">Die Idee</div>
         <h2>Ein Treffpunkt für alle, die den Winter lieben</h2>
-        <p class="lead">Ob Piste, Loipe, Skitour oder Rodelbahn: Unser Stammtisch trifft sich online auf Instagram. Dort kommen Wintersportler*innen zusammen, quatschen über Rennen und die letzten Abfahrten und planen die nächsten Ausflüge. Ganz locker, ohne Vereinsmeierei.</p>
+        <p class="lead">Ob Piste, Loipe, Schanze oder Eiskanal: Unser Stammtisch trifft sich online auf Instagram. Dort kommen Wintersportler*innen zusammen, quatschen über Rennen und die letzten Abfahrten und teilen ihre Tipps. Ganz locker, ohne Vereinsmeierei.</p>
       </div>
       <div class="cards">
         <article class="card reveal">
           <div class="ico"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#01516a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
           <h3>Austausch &amp; Tipps</h3>
           <p>Schneelage, Ausrüstung, Geheimtipps fürs Skigebiet: Hier teilst du, was du weißt, und erfährst, was du noch nicht wusstest.</p>
-        </article>
-        <article class="card reveal">
-          <div class="ico"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#01516a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20 L9 9 L13 15 L16 11 L21 20 Z"/><circle cx="17" cy="5" r="2"/></svg></div>
-          <h3>Gemeinsame Touren</h3>
-          <p>Aus Gesprächen werden Pläne: Tagesausflüge, Wochenenden in den Bergen oder eine gemeinsame Fahrt ins Skigebiet.</p>
-        </article>
-        <article class="card reveal">
-          <div class="ico"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#e20275" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h13v7a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5z"/><path d="M17 10h1.5a2.5 2.5 0 0 1 0 5H17"/><path d="M8 2.5c-1 1 1 1.5 0 2.5M12 2.5c-1 1 1 1.5 0 2.5"/></svg></div>
-          <h3>Gemeinsam mitfiebern</h3>
-          <p>Kakao in der Hand, Rennen im Fernsehen, Handy auf dem Sofa: Wir kommentieren gemeinsam in Stories und Chats. Neue Gesichter sind immer willkommen.</p>
         </article>
       </div>
     </div>
@@ -245,7 +236,7 @@
     <div class="wrap center">
       <div class="reveal">
         <div class="brush-main disz-head"><h2>Unsere 7<br>Wintersportdisziplinen</h2></div>
-        <p class="lead disz-lead">Von der Piste bis zum Eiskanal: Darüber reden wir, und dabei fiebern wir gemeinsam mit.</p>
+        <p class="lead disz-lead">Von der Piste bis zum Eiskanal: Über diese sieben Disziplinen reden wir.</p>
       </div>
       <ul class="disz-grid">
         <li class="disz-btn">
@@ -304,7 +295,7 @@
           <li>Keine Mitgliedschaft, keine Kosten: einfach folgen und mitreden</li>
           <li>Alle Wintersportarten und Könnensstufen willkommen</li>
           <li>Freunde markieren ausdrücklich erwünscht</li>
-          <li>Ideen für Touren und Themen sind jederzeit gern gesehen</li>
+          <li>Ideen für neue Themen sind jederzeit gern gesehen</li>
         </ul>
         <div class="hero-cta" style="justify-content:flex-start">
           <a class="btn btn-pink js-insta" href="https://www.instagram.com/wintersport.stammtisch/" target="_blank" rel="noopener">Auf Instagram folgen</a>
